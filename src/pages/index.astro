@@ -19,7 +19,7 @@ const selectedDishes = await getEntries(pageData.recommendations.data.selected_d
 const reviews = await fetchReviews(15);
 ---
 
-<Base title={pageData.meta.data.title} description={pageData.meta.data.description}>
+<Base title={pageData.meta.data.title} description={pageData.meta.data.description} image="/logo3.png">
     <main>
         <section class="relative h-screen">
             <Image
