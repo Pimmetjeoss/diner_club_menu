@@ -1,24 +1,11 @@
 ---
 import { MenuTabs } from "@/components/menu";
 import Base from "@/layouts/Base.astro";
-import { getImage } from "astro:assets";
 import { getCollection } from "astro:content";
 
 const menu = await getCollection("menu");
 const categories = await getCollection("menuCategories");
 const pageData = (await getCollection("menuPage"))[0];
-
-// Optimize images
-for (const item of menu) {
-    const image = await getImage({
-        src: item.data.img,
-        width: 300,
-        height: 300,
-        quality: "max",
-        fit: "cover",
-    });
-    item.data.img = image;
-}
 
 const categoriesWithMenu = categories
     .map((category) => ({
