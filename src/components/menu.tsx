@@ -37,7 +37,6 @@ export function MenuTabs({ menu }: { menu: menuItem[] }) {
                                 <div className="w-full">
                                     <div className="flex justify-between">
                                         <p className="mb-1 text-xl font-medium uppercase">{item.data.title}</p>
-                                        {item.data.price && <p className="font-semibold text-neutral-300">{currency.format(item.data.price)}</p>}
                                     </div>
                                     <p className="text-neutral-400">{item.data.description}</p>
                                 </div>

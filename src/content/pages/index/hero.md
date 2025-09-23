@@ -1,6 +1,6 @@
 ---
-title: Resta – Savor Every Bite
+title: Kim's and Pim's – Haute frituur
 img: /src/assets/images/pexels-valeriya-1639562.jpg
 ---
 
-Welcome to Resta, where passion meets flavor. Enjoy fresh ingredients, bold recipes, and a dining experience made to delight. Sit back, savor every bite, and let us take you on a journey of delicious flavors.
+Welkom bij Haute Frituur, waar de frituurpan de ster van de show is. Proef de perfectie van goudbruine lekkernijen, verse ingrediënten en gedurfde smaken. Van ambachtelijke gerechten tot verrassende frituurcreaties - laat je meevoeren in een wereld waar bruin fruit haute cuisine ontmoet.

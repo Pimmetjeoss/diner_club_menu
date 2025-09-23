@@ -54,6 +54,10 @@ const indexRecommendations = defineCollection({
         title: z.string(),
         secondary_title: z.string(),
         selected_dishes: z.array(reference("menu")),
+        sponsor_text: z.string().optional(),
+        sponsor_image: z.string().optional(),
+        inspired_text: z.string().optional(),
+        inspired_image: z.string().optional(),
     }),
 });
 

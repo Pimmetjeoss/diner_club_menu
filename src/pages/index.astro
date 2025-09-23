@@ -88,7 +88,6 @@ const reviews = await fetchReviews(15);
                             <div class="w-full">
                                 <div class="mb-1 flex justify-between gap-6">
                                     <p class="text-xl font-medium uppercase">{item.data.title}</p>
-                                    <p class="font-semibold text-neutral-300">{currency.format(item.data.price)}</p>
                                 </div>
                                 <p class="text-neutral-400">{item.data.description}</p>
                             </div>
@@ -96,6 +95,28 @@ const reviews = await fetchReviews(15);
                     ))
                 }
             </div>
+
+            {pageData.recommendations.data.sponsor_text && pageData.recommendations.data.sponsor_image && (
+                <div class="mx-auto mt-8 text-center">
+                    <p class="mb-4 text-lg text-neutral-400">{pageData.recommendations.data.sponsor_text}</p>
+                    <img
+                        src={pageData.recommendations.data.sponsor_image}
+                        alt="Sponsor"
+                        class="mx-auto max-h-20 object-contain"
+                    />
+                </div>
+            )}
+
+            {pageData.recommendations.data.inspired_text && pageData.recommendations.data.inspired_image && (
+                <div class="mx-auto mt-8 text-center">
+                    <p class="mb-4 text-lg text-neutral-400">{pageData.recommendations.data.inspired_text}</p>
+                    <img
+                        src={pageData.recommendations.data.inspired_image}
+                        alt="Inspired by"
+                        class="mx-auto max-h-20 object-contain"
+                    />
+                </div>
+            )}
 
             <a
                 href="/menu"

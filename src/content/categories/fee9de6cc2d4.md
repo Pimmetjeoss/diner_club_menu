@@ -1,4 +1,4 @@
 ---
-title: Soups & Salads
+title: Croquettes Deluxe
 order: 2
 ---

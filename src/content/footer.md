@@ -3,32 +3,32 @@ img: /src/assets/images/pexels-pixabay-260922.jpg
 title: Find Us
 contact:
     title: Contact Us
-    phone: +48 123 456 789
-    email: contact@resta.pl
+    phone: "09060911"
+    email: jemoeder@depoeder.nl
     socials:
         - icon: /src/assets/social_icons/facebook.svg
-          url: "#"
+          url: "https://www.tiktok.com/@dutch_sketches/video/7348888416467029280"
           title: Check out our Facebook profile
         - icon: /src/assets/social_icons/instagram.svg
-          url: "#"
+          url: "https://www.instagram.com/robgeus.official/"
           title: Our Instagram
         - icon: /src/assets/social_icons/pinterest.svg
-          url: "#"
+          url: "https://www.youtube.com/@FrietpanFrank"
           title: Pinterest
 opening_hours:
     title: We're Open
     opening_hours:
-        monday: 10:00 -18:00
-        tuesday: 10:00 -18:00
-        wednesday: 10:00 -18:00
-        thursday: 10:00 -18:00
-        friday: 10:00 -18:00
-        saturday: 10:00 -18:00
+        monday: Closed
+        tuesday: Closed
+        wednesday: Closed
+        thursday: Closed
+        friday: Closed
+        saturday: 18:30 - 02:00
         sunday: Closed
 ---
 
-Resta
+Haute Frituur
 
-Lorem 15
+Eventer 17
 
-00-000 Ipsum
+5351SK Berghem
