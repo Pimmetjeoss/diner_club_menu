@@ -96,5 +96,19 @@
         "text": "Kwam deze toko tegen op Bumble en ik moet zeggen dat het perfect eten is.",
         "rating": 5,
         "datetime": "2024-08-15T21:30:00Z"
+    },
+    {
+        "id": 1015,
+        "author": "Suzannen D",
+        "text": "Ik wil gewoon rijst",
+        "rating": 2,
+        "datetime": "2024-09-10T14:20:00Z"
+    },
+    {
+        "id": 1016,
+        "author": "Suuske Vos",
+        "text": "Zit er nog een verrassing in die smulbox ofwa?",
+        "rating": 4,
+        "datetime": "2024-09-18T18:45:00Z"
     }
 ]
