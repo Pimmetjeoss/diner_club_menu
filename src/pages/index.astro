@@ -76,12 +76,10 @@ const reviews = await fetchReviews(15);
                 {
                     selectedDishes.map((item) => (
                         <div class="flex flex-col gap-6 lg:flex-row">
-                            <Image
+                            <img
                                 src={item.data.img}
                                 width="300"
                                 height="300"
-                                fit="cover"
-                                quality="max"
                                 alt={item.data.title}
                                 class="aspect-square max-w-40 border-2 border-white object-cover"
                             />
