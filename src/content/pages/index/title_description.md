@@ -1,4 +1,4 @@
 ---
-title: Resta - Restaurant in Ipsum
-description: Welcome to Resta, where passion meets flavor. Enjoy fresh ingredients, bold recipes, and a dining experience made to delight.
+title: Dinerclub - Haute Frituur
+description: Welkom bij Haute Frituur, waar de frituurpan de ster van de show is. Proef de perfectie van goudbruine lekkernijen en gedurfde smaken.
 ---
