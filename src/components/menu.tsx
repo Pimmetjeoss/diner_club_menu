@@ -26,7 +26,7 @@ export function MenuTabs({ menu }: { menu: menuItem[] }) {
                         {item.items.map((item) => (
                             <div className="flex flex-col gap-6 md:flex-row" key={item.id}>
                                 <img
-                                    src={item.data.img.src}
+                                    src={typeof item.data.img === 'string' ? item.data.img : item.data.img.src}
                                     loading="lazy"
                                     decoding="async"
                                     width="140"

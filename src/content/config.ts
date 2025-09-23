@@ -9,7 +9,7 @@ const menu = defineCollection({
             description: z.string(),
             price: z.number(),
             category: reference("menuCategories"),
-            img: image(),
+            img: z.union([image(), z.string()]),
         }),
 });
 
