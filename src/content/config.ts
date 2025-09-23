@@ -3,14 +3,13 @@ import { defineCollection, reference, z } from "astro:content";
 
 const menu = defineCollection({
     loader: glob({ pattern: "**/*.md", base: "./src/content/menu" }),
-    schema: ({ image }) =>
-        z.object({
-            title: z.string(),
-            description: z.string(),
-            price: z.number(),
-            category: reference("menuCategories"),
-            img: z.union([image(), z.string()]),
-        }),
+    schema: z.object({
+        title: z.string(),
+        description: z.string(),
+        price: z.number(),
+        category: reference("menuCategories"),
+        img: z.string(),
+    }),
 });
 
 const menuCategories = defineCollection({
