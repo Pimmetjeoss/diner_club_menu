@@ -6,6 +6,7 @@ import { fetchReviews } from "@/utils/fetchReviews";
 import { currency } from "@/utils/formatters";
 import { Image } from "astro:assets";
 import { getCollection, getEntries } from "astro:content";
+import logo3 from "/public/logo3.png";
 
 const pageData = {
     hero: (await getCollection("indexHero"))[0],
@@ -19,7 +20,7 @@ const selectedDishes = await getEntries(pageData.recommendations.data.selected_d
 const reviews = await fetchReviews(15);
 ---
 
-<Base title={pageData.meta.data.title} description={pageData.meta.data.description} image="/logo3.png">
+<Base title={pageData.meta.data.title} description={pageData.meta.data.description} image={logo3}>
     <main>
         <section class="relative h-screen">
             <Image
