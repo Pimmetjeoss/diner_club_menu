@@ -6,7 +6,7 @@ import { fetchReviews } from "@/utils/fetchReviews";
 import { currency } from "@/utils/formatters";
 import { Image } from "astro:assets";
 import { getCollection, getEntries } from "astro:content";
-import logo3 from "/public/logo3.png";
+import logo3 from "@/assets/images/logo3.png";
 
 const pageData = {
     hero: (await getCollection("indexHero"))[0],
